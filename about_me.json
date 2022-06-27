@@ -2,6 +2,6 @@
 "person":{
 "first_name":"Ihor",
 "last_name":"Avramenko",
-"skills": ["SQL", "Git, "Jira", "Postman"],
+"skills": ["SQL", "Git", "Jira", "Postman"],
 "hobbies": ["Sound Mixing", "LEGO", "Visual art"] }
 }
