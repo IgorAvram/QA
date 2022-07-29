@@ -16,7 +16,9 @@ Steps to reproduce:
 5	Click "Оформить".				
 Actual result:	System approved entered not-valid value such as "0".				
 Expected result:	Must be shown a restriction message, for example: "Not a valid number", “Not a valid email". 				
-Attachments:	https://drive.google.com/file/d/13xGI0BEp2Fsdx3WPAHKtPvOU3rPpw8Ec/view?usp=sharing 							
+Attachments:	https://drive.google.com/file/d/13xGI0BEp2Fsdx3WPAHKtPvOU3rPpw8Ec/view?usp=sharing
+
+--------------------------------------------------------------------------------------------------------------------
 					
 ID	HZ-voda-2				
 Reporter:	Ihor Avramenko	Assignee:		Status:	New
