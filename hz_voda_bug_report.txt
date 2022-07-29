@@ -16,8 +16,7 @@ Steps to reproduce:
 5	Click "Оформить".				
 Actual result:	System approved entered not-valid value such as "0".				
 Expected result:	Must be shown a restriction message, for example: "Not a valid number", “Not a valid email". 				
-Attachments:	https://drive.google.com/file/d/13xGI0BEp2Fsdx3WPAHKtPvOU3rPpw8Ec/view?usp=sharing 			
-Additional info:					
+Attachments:	https://drive.google.com/file/d/13xGI0BEp2Fsdx3WPAHKtPvOU3rPpw8Ec/view?usp=sharing 							
 					
 ID	HZ-voda-2				
 Reporter:	Ihor Avramenko	Assignee:		Status:	New
@@ -35,5 +34,4 @@ Steps to reproduce:
 3	Choose address, hit "Далі" and take a look at the headers "Нове замовлення" and "Наші ціни".				
 Actual result:	Headers: "Замовлення", "Нове замовлення", "Наші ціни" are hardly readable.				
 Expected result:	Headers: "Замовлення", "Нове замовлення", "Наші ціни" are easily readable.				
-Attachments:	https://prnt.sc/bGjD6CYC67aR				
-Additional info:					
+Attachments:	https://prnt.sc/bGjD6CYC67aR									
