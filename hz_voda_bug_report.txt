@@ -1,0 +1,39 @@
+ID	HZ-voda-1				
+Reporter:	Ihor Avramenko	Assignee:		Status:	New
+Type:	Non-Functionality	Severity:	Trivial 	Priority:	Normal
+Browser:	Chrome 103.0.5060.53	OS:	Windows	OS version	11 Pro 21H2
+Summary:	The order confirmation form accepts "0" (zero) values.				
+Description:	The order confirmation form accepts "0" (zero) values.				
+					
+Pre-conditions:					
+1	Be authorized on https://hz-voda.com.ua/				
+2	At least one added item to the shopping basket.				
+Steps to reproduce:					
+1	Go to the shopping basket.				
+2	Fill "Имя", "Номер телефона", "Адрес" forms with different quantities of "0";				
+3	Fill "Почта" with one "0";				
+4	Check radio button;				
+5	Click "Оформить".				
+Actual result:	System approved entered not-valid value such as "0".				
+Expected result:	Must be shown a restriction message, for example: "Not a valid number", “Not a valid email". 				
+Attachments:	https://drive.google.com/file/d/13xGI0BEp2Fsdx3WPAHKtPvOU3rPpw8Ec/view?usp=sharing 			
+Additional info:					
+					
+ID	HZ-voda-2				
+Reporter:	Ihor Avramenko	Assignee:		Status:	New
+Type:	Usability Errors	Severity:	Major	Priority:	High
+Mobile:	Xiaomi Redmi Note 7	OS:	Android	OS version	10 QKQ1.190910.002
+App Version:	4.2.4				
+Summary:	The text is hardly readable on the side bar and order page.				
+Description:	The text is hardly readable on the side bar and order page in mobile night mode.				
+					
+Pre-conditions:					
+1	Be signed in to the app.				
+Steps to reproduce:					
+1	Click the sidebar button and take a look at the header with Customer Name.				
+2	On the main (start) page, choose "Замовити" and take a look at the header "Замовлення";				
+3	Choose address, hit "Далі" and take a look at the headers "Нове замовлення" and "Наші ціни".				
+Actual result:	Headers: "Замовлення", "Нове замовлення", "Наші ціни" are hardly readable.				
+Expected result:	Headers: "Замовлення", "Нове замовлення", "Наші ціни" are easily readable.				
+Attachments:	https://prnt.sc/bGjD6CYC67aR				
+Additional info:					
